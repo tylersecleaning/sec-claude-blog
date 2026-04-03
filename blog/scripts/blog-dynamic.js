@@ -4,7 +4,8 @@
  * Loaded via <script src> in ALL-IN-ONE.html — hosted on GitHub Pages.
  */
 (function () {
-  var POSTS_URL = 'https://tylersecleaning.github.io/sec-claude-blog/blog/posts.json';
+  var GITHUB_POSTS_URL = 'https://tylersecleaning.github.io/sec-claude-blog/blog/posts.json';
+  var LOCAL_POSTS_URL = 'posts.json';
   var GRID_ID = 'dynamicPostsGrid';
 
   function formatDate(dateStr) {
@@ -63,17 +64,18 @@
     }
   }
 
-  // Attempt to fetch and render
-  fetch(POSTS_URL)
-    .then(function (res) {
-      if (!res.ok) throw new Error('Failed to fetch posts: ' + res.status);
+  // Try GitHub Pages first, then local file
+  var urls = [GITHUB_POSTS_URL, LOCAL_POSTS_URL];
+  (function fetchWithFallback(urlsList) {
+    if (urlsList.length === 0) return;
+    var url = urlsList.shift();
+    fetch(url).then(function (res) {
+      if (!res.ok) throw new Error('Failed: ' + res.status);
       return res.json();
-    })
-    .then(function (data) {
-      loadPosts(data.posts || []);
-    })
-    .catch(function () {
-      // Graceful fallback — keep static content if provided
-      // This fires only once; no retry needed
+    }).then(function (data) {
+      if (data && data.posts) loadPosts(data.posts);
+    }).catch(function () {
+      fetchWithFallback(urlsList);
     });
+  })(urls);
 })();
