@@ -1,0 +1,72 @@
+{
+  "site": "Southern Exterior Cleaning Co.",
+  "blogUrl": "https://www.southernexteriorcleaning.com/blog",
+  "posts": [
+    {
+      "slug": "why-pressure-washing-house-costs-thousands",
+      "title": "Why Pressure Washing Your House Will Cost You Thousands",
+      "category": "How-To",
+      "date": "2026-03-28",
+      "readTime": "8 min read",
+      "imageUrl": "https://iili.io/qZvVJmG.jpg",
+      "imageAlt": "Dirt-roof-covered-in-black-streaks-and-algae-before-cleaning",
+      "excerpt": "Using a pressure washer on your home's siding is one of the most common and expensive mistakes homeowners make. Here's why soft washing is the only safe method for house cleaning.",
+      "featured": false
+    },
+    {
+      "slug": "when-to-clean-gutters-north-georgia",
+      "title": "When to Clean Your Gutters: North Georgia Seasonal Guide",
+      "category": "Maintenance",
+      "date": "2026-03-20",
+      "readTime": "6 min read",
+      "imageUrl": "https://iili.io/BqmoLg9.jpg",
+      "imageAlt": "Clogged-gutter-filled-with-leaves-and-debris-before-cleaning",
+      "excerpt": "With heavy fall foliage and frequent spring storms, North Georgia gutters fill up fast. Here's when to clean them, how often, and what happens when you let them go too long.",
+      "featured": false
+    },
+    {
+      "slug": "driveway-transformation-10-years-grime-gone",
+      "title": "Driveway Transformation: 10 Years of Grime Gone in 2 Hours",
+      "category": "Before & After",
+      "date": "2026-03-15",
+      "readTime": "5 min read",
+      "imageUrl": "https://iili.io/qZvV1pa.jpg",
+      "imageAlt": "Pressure-washing-concrete-driveway-before-and-after-results",
+      "excerpt": "This Commerce, GA driveway hadn't been cleaned in over a decade. See how professional pressure washing restored the concrete and boosted curb appeal dramatically.",
+      "featured": false
+    },
+    {
+      "slug": "gloeocapsa-magma-bacteria-eating-roof",
+      "title": "Gloeocapsa Magma: The Bacteria Eating Your Roof Right Now",
+      "category": "Industry",
+      "date": "2026-03-10",
+      "readTime": "7 min read",
+      "imageUrl": "https://iili.io/qpsZTMv.jpg",
+      "imageAlt": "Moss-covered-roof-before-professional-cleaning",
+      "excerpt": "Those black streaks on your roof aren't dirt or algae -- they're a living bacteria called Gloeocapsa magma that's actively consuming your shingles' limestone filler. Here's what that means.",
+      "featured": false
+    },
+    {
+      "slug": "prepping-deck-spring-complete-cleaning-guide",
+      "title": "Prepping Your Deck for Spring: A Complete Cleaning Guide",
+      "category": "How-To",
+      "date": "2026-03-05",
+      "readTime": "9 min read",
+      "imageUrl": "https://iili.io/qp6w5f2.jpg",
+      "imageAlt": "Deck-before-and-after-cleaning-showing-dramatic-restoration",
+      "excerpt": "Before you fire up the grill this spring, make sure your deck is actually clean. Here's our step-by-step process for getting your deck ready for the season.",
+      "featured": false
+    },
+    {
+      "slug": "why-gutter-guards-dont-eliminate-cleaning",
+      "title": "Why Gutter Guards Don't Eliminate Cleaning (But They Help)",
+      "category": "Industry",
+      "date": "2026-02-28",
+      "readTime": "6 min read",
+      "imageUrl": "https://iili.io/qZvE4EP.jpg",
+      "imageAlt": "Professional-exterior-cleaning-crew-at-work-on-home",
+      "excerpt": "Gutter guards are a great investment, but they don't make your gutters maintenance-free. Here's what they actually do, what they don't do, and why you still need periodic cleanings.",
+      "featured": false
+    }
+  ]
+}
