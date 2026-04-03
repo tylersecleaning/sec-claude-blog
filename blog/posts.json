@@ -3,6 +3,17 @@
   "blogUrl": "https://www.southernexteriorcleaning.com/blog",
   "posts": [
     {
+      "slug": "test-post-how-often-should-you-pressure-wash-your-driveway",
+      "title": "Test Post: How Often Should You Pressure Wash Your Driveway?",
+      "category": "How-To",
+      "date": "2026-04-03",
+      "readTime": "4 min read",
+      "imageUrl": "https://iili.io/qZvV1pa.jpg",
+      "imageAlt": "Clean-concrete-driveway-after-professional-pressure-washing",
+      "excerpt": "This is a test post to verify the blog automation pipeline. In real life: how often to clean your driveway and why it matters.",
+      "featured": false
+    },
+    {
       "slug": "why-pressure-washing-house-costs-thousands",
       "title": "Why Pressure Washing Your House Will Cost You Thousands",
       "category": "How-To",
